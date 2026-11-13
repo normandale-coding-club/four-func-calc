@@ -1,0 +1,10 @@
+# Packages this project needs. Install them with:
+#     pip install -r requirements.txt
+#
+# Right now everything uses Python's standard library (including tkinter
+# for the GUI), so there's nothing to install yet.
+#
+# If you add a library (e.g. a different GUI library), put it on its own
+# line below with a version, then tell the club to re-run the install:
+#     PySide6==6.8.1
+#     customtkinter==5.2.2
