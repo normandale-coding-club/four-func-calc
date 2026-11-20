@@ -8,6 +8,9 @@ A calculator built together by the club. Each role owns one file.
  User types "3 + 4 * 2" in the GUI
         │
         ▼
+ validator.py   →  each keypress checked: "3++" is blocked before it shows up
+        │
+        ▼
  tokenizer.py   →  [3.0, "+", 4.0, "*", 2.0]
         │
         ▼
@@ -24,6 +27,7 @@ A calculator built together by the club. Each role owns one file.
 | Basic Functions | Simple | `calculator/operations.py` | `tests/test_operations.py` |
 | Multi Input Handling | Medium | `calculator/tokenizer.py` | `tests/test_tokenizer.py` |
 | Order of Operations | Medium | `calculator/evaluator.py` | `tests/test_evaluator.py` |
+| Input Validation | Medium | `calculator/validator.py` | `tests/test_validator.py` |
 | App GUI | Medium | `calculator/gui.py` | run `python main.py` and click around |
 | Integration & Testing | Simple | `main.py`, `tests/` | `tests/test_calculate.py` |
 
