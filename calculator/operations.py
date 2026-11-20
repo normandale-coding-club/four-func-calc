@@ -11,21 +11,17 @@ Done when: `python -m unittest tests.test_operations` passes.
 
 def add(a: float, b: float) -> float:
     """Return a + b."""
-    # TODO: implement
-    raise NotImplementedError
+    return a + b
 
 
 def subtract(a: float, b: float) -> float:
     """Return a - b."""
-    # TODO: implement
-    raise NotImplementedError
+    return a - b
 
 
 def multiply(a: float, b: float) -> float:
     """Return a * b."""
-    # TODO: implement
-    raise NotImplementedError
-
+    return a * b
 
 def divide(a: float, b: float) -> float:
     """Return a / b.
@@ -33,5 +29,6 @@ def divide(a: float, b: float) -> float:
     If b is 0, raise ZeroDivisionError with a friendly message,
     e.g. raise ZeroDivisionError("Cannot divide by zero")
     """
-    # TODO: implement
-    raise NotImplementedError
+    if b == 0:
+        raise ZeroDivisionError("Cannot divide by zero")
+    return a / b
